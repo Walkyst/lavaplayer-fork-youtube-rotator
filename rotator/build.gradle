@@ -1,0 +1,12 @@
+plugins {
+  id 'java'
+  id 'com.jfrog.bintray'
+  id 'maven-publish'
+}
+
+ext.moduleName = 'lavaplayer-ext-youtube-rotator'
+version = '0.2.3'
+
+dependencies {
+  compile group: 'com.github.Walkyst', name: 'lavaplayer-fork', version: '03e085f64f'
+}
