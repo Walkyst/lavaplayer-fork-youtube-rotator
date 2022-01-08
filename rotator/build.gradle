@@ -7,7 +7,7 @@ plugins {
 }
 
 ext.moduleName = 'lavaplayer-ext-youtube-rotator'
-version = '0.2.3'
+version = '0.2.4'
 
 repositories {
   maven {
@@ -20,7 +20,7 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
-  compile group: 'com.github.Walkyst', name: 'lavaplayer-fork', version: '03e085f64f'
+  compile group: 'com.github.walkyst', name: 'lavaplayer-fork', version: '2c1ffe599b'
 }
 
 jar {
